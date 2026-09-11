@@ -20,21 +20,15 @@ from langchain_core.prompts import ChatPromptTemplate
 # ---------------------------------------------------------
 # 1. Load environment variables
 # ---------------------------------------------------------
-load_dotenv()
+#load_dotenv()
+os.environ['OPENAI_API_KEY'] = "your api key"
 
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 CHAT_MODEL = os.getenv("OPENAI_MODEL", "gpt-4.1-mini")
 EMBEDDING_MODEL = os.getenv(
     "OPENAI_EMBEDDING_MODEL",
     "text-embedding-3-small",
 )
 
-if not OPENAI_API_KEY:
-    st.error(
-        "OPENAI_API_KEY was not found. "
-        "Create a .env file in the same folder as app.py."
-    )
-    st.stop()
 
 
 # ---------------------------------------------------------
