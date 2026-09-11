@@ -1,0 +1,21 @@
+order_id,customer_name,product,status,order_date,expected_delivery,amount_inr,payment_method,issue_reported,issue_details
+ORD1001,Asha,Wireless Headphones,Shipped,2026-09-09,2026-09-12,2499,Card,No,
+ORD1002,Ravi,Smart Watch,Delivered,2026-09-04,2026-09-07,3999,UPI,Yes,Damaged screen
+ORD1003,Meena,Laptop Stand,Processing,2026-09-10,2026-09-14,1299,Card,No,
+ORD1004,Kiran,Mechanical Keyboard,Delivered,2026-09-01,2026-09-05,4599,NetBanking,Yes,Wrong item
+ORD1005,Priya,USB-C Hub,Shipped,2026-09-08,2026-09-11,1899,UPI,No,
+ORD1006,Arjun,Webcam,Cancelled,2026-09-07,,2799,Card,Yes,Customer cancelled
+ORD1007,Neha,Bluetooth Speaker,Delivered,2026-08-30,2026-09-03,3299,COD,No,
+ORD1008,Sanjay,Power Bank,Processing,2026-09-10,2026-09-13,2199,UPI,No,
+ORD1009,Divya,Gaming Mouse,Delivered,2026-09-02,2026-09-06,1999,Card,Yes,Not working
+ORD1010,Vikram,Monitor,Shipped,2026-09-06,2026-09-12,14999,NetBanking,No,
+ORD1011,Lakshmi,Phone Case,Delivered,2026-09-05,2026-09-08,799,UPI,No,
+ORD1012,Rahul,SSD 1TB,Processing,2026-09-09,2026-09-13,6499,Card,No,
+ORD1013,Anita,Office Chair,Delivered,2026-08-29,2026-09-04,8999,Card,Yes,Missing wheel
+ORD1014,Manoj,Tablet Cover,Shipped,2026-09-08,2026-09-11,999,COD,No,
+ORD1015,Swathi,Noise Cancelling Earbuds,Delivered,2026-09-03,2026-09-07,5499,UPI,Yes,Left earbud issue
+ORD1016,Naveen,HDMI Cable,Delivered,2026-09-01,2026-09-04,699,Card,No,
+ORD1017,Pooja,Fitness Band,Processing,2026-09-10,2026-09-15,2999,UPI,No,
+ORD1018,Suresh,Portable SSD,Shipped,2026-09-07,2026-09-12,7999,Card,No,
+ORD1019,Deepa,Desk Lamp,Delivered,2026-08-28,2026-09-02,1599,COD,Yes,Cracked shade
+ORD1020,Ajay,Router,Cancelled,2026-09-05,,3499,NetBanking,Yes,Payment retry failed

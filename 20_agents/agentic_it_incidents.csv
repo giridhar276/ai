@@ -1,0 +1,11 @@
+incident_id,title,service,severity,status,affected_users,observed_signal,detected_at
+INC001,Payments API latency,payments-api,HIGH,Open,780,p95 latency 4.8s; DB pool saturation,2026-09-10 09:05
+INC002,Login failures,auth-service,CRITICAL,Open,2400,HTTP 500 spike; token validation timeout,2026-09-10 09:18
+INC003,Checkout pod restart,checkout-service,MEDIUM,Monitoring,320,OOMKilled; memory reached 95%,2026-09-10 08:47
+INC004,Search slow queries,search-service,MEDIUM,Open,640,Elasticsearch query timeout > 3s,2026-09-10 09:22
+INC005,Notification backlog,notification-worker,LOW,Open,150,Kafka lag 18200 messages,2026-09-10 09:28
+INC006,Database CPU spike,orders-db,HIGH,Open,930,CPU 96%; top query missing index,2026-09-10 09:31
+INC007,Image upload failures,media-service,MEDIUM,Resolved,410,Object store 503 transient errors,2026-09-10 07:55
+INC008,DNS resolution delay,edge-gateway,HIGH,Open,1100,DNS lookup p95 2.1s,2026-09-10 09:36
+INC009,Cache miss surge,catalog-cache,LOW,Monitoring,260,Redis eviction rate increased,2026-09-10 08:58
+INC010,Payment webhook retries,payments-worker,HIGH,Open,720,Partner endpoint timeout; retries exhausted,2026-09-10 09:41
